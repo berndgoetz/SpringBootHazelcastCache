@@ -6,9 +6,9 @@ import org.springframework.cache.annotation.EnableCaching;
 
 @SpringBootApplication
 @EnableCaching
-public class TicketBookingManagementApplication {
+public class TicketManagementApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TicketBookingManagementApplication.class, args);
+		SpringApplication.run(TicketManagementApplication.class, args);
 	}
 }

@@ -4,6 +4,6 @@ import org.springframework.data.repository.CrudRepository;
 
 import com.infotech.book.ticket.app.entities.Ticket;
 
-public interface TicketBookingDao extends CrudRepository<Ticket, Integer>{
+public interface TicketRepository extends CrudRepository<Ticket, Integer>{
 
 }
